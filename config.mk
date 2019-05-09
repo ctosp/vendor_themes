@@ -26,9 +26,11 @@ PRODUCT_PACKAGES += \
     QStileOreoSquircleTrim \
     QStileInkDrop \
     QStileCookie \
-    QStileCircleOutline \
-    DefaultDarkTransparent-SystemUI \
-    DefaultDarkTransparent-System
+    QStileCircleOutline
+
+# QS CTOSP header styles
+PRODUCT_PACKAGES += \
+    QSHeaderTransparent
 
 # Accent and Base packages
 PRODUCT_PACKAGES += \
